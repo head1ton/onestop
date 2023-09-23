@@ -17,6 +17,7 @@ public class CommandLineBean {
         this.arguments = arguments;
     }
 
+    // program arguments --url=devdb --url=devdb2 --username=dev_user --password=dev_pw mode=on
     @PostConstruct
     public void init() {
         log.info("source {}", List.of(arguments.getSourceArgs()));
