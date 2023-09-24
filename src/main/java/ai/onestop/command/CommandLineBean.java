@@ -8,7 +8,7 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.stereotype.Component;
 
 @Slf4j
-@Component
+//@Component
 public class CommandLineBean {
 
     private final ApplicationArguments arguments;
